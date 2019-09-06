@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1567800942 source:/home/uluadmin/Documents/FACU/TP1/funciones.c
+	"cabecera.h"
+
+1567800668 source:/home/uluadmin/Documents/FACU/TP1/main.c
+	"cabecera.h"
+
+1567800199 /home/uluadmin/Documents/FACU/TP1/cabecera.h
+	<stdio.h>
+	<stdlib.h>
+
+1567797099 /home/uluadmin/Documents/FACU/TP1/funciones.c
+
