@@ -86,3 +86,35 @@
 	"LinkedList.h"
 	"Employee.h"
 
+1572999619 source:c:\users\grill\desktop\tp_laboratorio_1-master\tp3\win_64\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1572999619 c:\users\grill\desktop\tp_laboratorio_1-master\tp3\win_64\linkedlist.h
+
+1572999619 c:\users\grill\desktop\tp_laboratorio_1-master\tp3\win_64\employee.h
+
+1572999619 source:c:\users\grill\desktop\tp_laboratorio_1-master\tp3\win_64\employee.c
+
+1572999619 source:c:\users\grill\desktop\tp_laboratorio_1-master\tp3\win_64\main.c
+	"cabecera.h"
+
+1573265415 c:\users\grill\desktop\tp_laboratorio_1-master\tp3\win_64\cabecera.h
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1573265689 c:\users\grill\desktop\tp_laboratorio_1-master\tp3\win_64\controller.h
+
+1573265695 source:c:\users\grill\desktop\tp_laboratorio_1-master\tp3\win_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1573265340 source:c:\users\grill\desktop\tp_laboratorio_1-master\tp3\win_64\cabecera.c
+

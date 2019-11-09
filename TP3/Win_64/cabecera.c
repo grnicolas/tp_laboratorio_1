@@ -1,12 +1,4 @@
-#include "cabecera.h"
 
-/*
-
-{
-
-}
-
-*/
 
 void mostrarMenu()
 {

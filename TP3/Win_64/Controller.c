@@ -3,110 +3,73 @@
 #include "LinkedList.h"
 #include "Employee.h"
 
-
-/** \brief Carga los datos de los empleados desde el archivo data.csv (modo texto).
- *
- * \param path char*
- * \param pArrayListEmployee LinkedList*
- * \return int
- *
- */
 int controller_loadFromText(char* path , LinkedList* pArrayListEmployee)
 {
+    FILE* pEmployee;
+    Employee empl;
+
+    pEmployee=fopen(path,"rt");
+
+     while(!feof(pEmployee))
+    {
+        //trozarCamposVariable(&linea,&notas);
+        //fread(&empl,sizeof(Employee),1,Employee);
+        //pArrayListEmployee
+    }
+
     return 1;
 }
 
-/** \brief Carga los datos de los empleados desde el archivo data.csv (modo binario).
- *
- * \param path char*
- * \param pArrayListEmployee LinkedList*
- * \return int
- *
- */
 int controller_loadFromBinary(char* path , LinkedList* pArrayListEmployee)
 {
     return 1;
 }
 
-/** \brief Alta de empleados
- *
- * \param path char*
- * \param pArrayListEmployee LinkedList*
- * \return int
- *
- */
 int controller_addEmployee(LinkedList* pArrayListEmployee)
 {
     return 1;
 }
 
-/** \brief Modificar datos de empleado
- *
- * \param path char*
- * \param pArrayListEmployee LinkedList*
- * \return int
- *
- */
 int controller_editEmployee(LinkedList* pArrayListEmployee)
 {
     return 1;
 }
 
-/** \brief Baja de empleado
- *
- * \param path char*
- * \param pArrayListEmployee LinkedList*
- * \return int
- *
- */
 int controller_removeEmployee(LinkedList* pArrayListEmployee)
 {
     return 1;
 }
 
-/** \brief Listar empleados
- *
- * \param path char*
- * \param pArrayListEmployee LinkedList*
- * \return int
- *
- */
 int controller_ListEmployee(LinkedList* pArrayListEmployee)
 {
+    while(pArrayListEmployee->pFirstNode != NULL)
+    {
+
+    }
+
     return 1;
 }
 
-/** \brief Ordenar empleados
- *
- * \param path char*
- * \param pArrayListEmployee LinkedList*
- * \return int
- *
- */
 int controller_sortEmployee(LinkedList* pArrayListEmployee)
 {
     return 1;
 }
 
-/** \brief Guarda los datos de los empleados en el archivo data.csv (modo texto).
- *
- * \param path char*
- * \param pArrayListEmployee LinkedList*
- * \return int
- *
- */
+
 int controller_saveAsText(char* path , LinkedList* pArrayListEmployee)
 {
+    FILE* arch_txt;
+    arch_txt = fopen(path,"wt");
+
+    while(pArrayListEmployee->pFirstNode != NULL)
+    {
+
+        fprintf(arch_txt,"",);
+    }
+
     return 1;
 }
 
-/** \brief Guarda los datos de los empleados en el archivo data.csv (modo binario).
- *
- * \param path char*
- * \param pArrayListEmployee LinkedList*
- * \return int
- *
- */
 int controller_saveAsBinary(char* path , LinkedList* pArrayListEmployee)
 {
     return 1;
