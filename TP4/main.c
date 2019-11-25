@@ -110,7 +110,7 @@ int main()
                     break;
                 }
 
-                if(controller_saveAsText("data.csv",employeeList); == 1)
+                if(controller_saveAsText("data.csv",employeeList) == 1)
                 {
                     printf("\nOK_8");
                 } else {

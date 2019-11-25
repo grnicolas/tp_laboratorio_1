@@ -23,21 +23,39 @@ void test_linked_list()
 {
     printf("\nTEST LINKED LIST\n");
 
-    //
+    LinkedList* lista;
+    lista = ll_newLinkedList();
 
+    printf("%d",ll_len(lista)); /// Muestra 0.
+
+    Node* nodo = (Node*) malloc(sizeof(Node*));
+
+    lista->pFirstNode = nodo;
+    lista->size++;
+
+    printf("%d",ll_len(lista)); /// Muestra 1.
+
+    ll_remove(lista,0); /// Elimina Nodo de la Lista
+    printf("%d",ll_len(lista)); /// Muestra 0.
+
+    free(nodo); /// Libera Nodo Auxiliar
+    ll_deleteLinkedList(lista); /// Elimina todos los Nodos de la Lista y la Lista
+
+    printf("\nFin del Test");
+    printf("\n");
 }
 
 int controller_loadFromText(char* path, LinkedList* pArrayListEmployee)
 {
     FILE* f;
-    int validation=0;
+    int retorno=0;
 
     if(path!=NULL && pArrayListEmployee!=NULL)
     {
         f=fopen(path,"r");
         if(f!=NULL)
         {
-            validation=parser_EmployeeFromText(f,pArrayListEmployee);
+            retorno=parser_EmployeeFromText(f,pArrayListEmployee);
         }
         else
         {
@@ -46,13 +64,13 @@ int controller_loadFromText(char* path, LinkedList* pArrayListEmployee)
     }
 
     fclose(f);
-    return validation;
+    return retorno;
 }
 
 int controller_loadFromBinary(char* path, LinkedList* pArrayListEmployee)
 {
     FILE* pFile;
-    int result=0;
+    int retorno=0;
 
     if(path != NULL && pArrayListEmployee != NULL)
     {
@@ -61,26 +79,26 @@ int controller_loadFromBinary(char* path, LinkedList* pArrayListEmployee)
 
         if(pFile==NULL)
         {
-            result=0;
+            retorno=0;
         }
         else
         {
-            result = parser_EmployeeFromBinary(pFile,pArrayListEmployee);
+            retorno = parser_EmployeeFromBinary(pFile,pArrayListEmployee);
         }
     }
 
     fclose(pFile);
-    return result;
+    return retorno;
 }
 
 int controller_addEmployee(LinkedList* pArrayListEmployee)
 {
-    int validation=-1;
-
     int auxSueldo=0;
     int auxHorasTrabajadas=0;
     char auxNombre[30];
     int auxId;
+
+    int retorno=-1;
 
     auxId=generateId(pArrayListEmployee);
 
@@ -99,18 +117,18 @@ int controller_addEmployee(LinkedList* pArrayListEmployee)
                 if(!ll_add(pArrayListEmployee,employee))
                 {
                     printf("\nALTA");
-                    validation=1;
+                    retorno=1;
                 }
             }
         }
     }
 
-    return validation;
+    return retorno;
 }
 
 int controller_editEmployee(LinkedList* pArrayListEmployee)
 {
-    int validation=0;
+    int retorno=0;
     char confirm;
     int id;
     int len;
@@ -166,7 +184,7 @@ int controller_editEmployee(LinkedList* pArrayListEmployee)
                     strcpy(employee->nombre,name);
                     ll_remove(pArrayListEmployee,index);
                     ll_push(pArrayListEmployee,index,employee);
-                    validation=1;
+                    retorno=1;
                     printf("MODIFICADO\n");
                 }
 
@@ -182,7 +200,7 @@ int controller_editEmployee(LinkedList* pArrayListEmployee)
                     employee->horasTrabajadas=hours;
                     ll_remove(pArrayListEmployee,index);
                     ll_push(pArrayListEmployee,index,employee);
-                    validation=1;
+                    retorno=1;
                     printf("MODIFICADO\n");
                 }
 
@@ -197,7 +215,7 @@ int controller_editEmployee(LinkedList* pArrayListEmployee)
                     employee->sueldo=salary;
                     ll_remove(pArrayListEmployee,index);
                     ll_push(pArrayListEmployee,index,employee);
-                    validation=1;
+                    retorno=1;
                     printf("MODIFICADO\n");
                 }
                 break;
@@ -205,7 +223,7 @@ int controller_editEmployee(LinkedList* pArrayListEmployee)
         }
     }
 
-    return validation;
+    return retorno;
 }
 
 int controller_removeEmployee(LinkedList* pArrayListEmployee)
