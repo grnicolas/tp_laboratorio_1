@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1574653120 source:c:\users\grill\3d objects\tp4\control.c
+	"control.h"
+	"parser.h"
+	<ctype.h>
+
+1574652430 c:\users\grill\3d objects\tp4\control.h
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"utn.h"
+
+1574652367 c:\users\grill\3d objects\tp4\linkedlist.h
+	"control.h"
+
+1574648626 source:c:\users\grill\3d objects\tp4\linkedlist.c
+	"LinkedList.h"
+
+1574654587 source:c:\users\grill\3d objects\tp4\main.c
+	"control.h"
+	"LinkedList.h"
+	"controller.h"
+
+1574649818 source:c:\users\grill\3d objects\tp4\utn.c
+	"utn.h"
+
+1574649842 c:\users\grill\3d objects\tp4\utn.h
+	"control.h"
+
+1574650373 c:\users\grill\3d objects\tp4\employee.h
+	"control.h"
+
+1574650513 source:c:\users\grill\3d objects\tp4\employee.c
+	"Employee.h"
+
+1574652581 c:\users\grill\3d objects\tp4\parser.h
+	"control.h"
+
+1574652560 source:c:\users\grill\3d objects\tp4\parser.c
+	"parser.h"
+
+1574652618 c:\users\grill\3d objects\tp4\controller.h
+
