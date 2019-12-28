@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1577565886 source:c:\users\grill\pictures\tp2\tp2\arrayemployess.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"arrayEmployess.h"
+	"validaciones.h"
+
+1577565726 c:\users\grill\pictures\tp2\tp2\arrayemployess.h
+
+1577565726 c:\users\grill\pictures\tp2\tp2\validaciones.h
+
+1577565726 source:c:\users\grill\pictures\tp2\tp2\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validaciones.h"
+
+1577565935 source:c:\users\grill\pictures\tp2\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"arrayEmployess.h"
+	"validaciones.h"
+
