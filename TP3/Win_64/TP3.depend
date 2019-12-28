@@ -53,68 +53,194 @@
 	"LinkedList.h"
 	"Employee.h"
 
-1572994180 source:c:\users\alumno\downloads\tp3\tp3\win_64\controller.c
+1572898458 source:e:\programacion\tp3\tp3\win_64\controller.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
 	"Employee.h"
+	"parser.h"
 
-1572994180 c:\users\alumno\downloads\tp3\tp3\win_64\linkedlist.h
+1533133022 e:\programacion\tp3\tp3\win_64\linkedlist.h
 
-1572994180 c:\users\alumno\downloads\tp3\tp3\win_64\employee.h
-
-1572994180 source:c:\users\alumno\downloads\tp3\tp3\win_64\employee.c
-
-1572997905 source:c:\users\alumno\downloads\tp3\tp3\win_64\main.c
-	"cabecera.h"
-
-1572995201 c:\users\alumno\downloads\tp3\tp3\win_64\cabecera.h
-	<stdio.h>
-	<stdlib.h>
+1572838127 e:\programacion\tp3\tp3\win_64\employee.h
 	"LinkedList.h"
-	"Controller.h"
+
+1572838215 source:e:\programacion\tp3\tp3\win_64\employee.c
 	"Employee.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
 
-1572994180 c:\users\alumno\downloads\tp3\tp3\win_64\controller.h
-
-1572995692 source:c:\users\alumno\downloads\tp3\tp3\win_64\cabecera.c
-	"cabecera.h"
-
-1572994180 source:c:\users\alumno\downloads\tp3\tp3\win_64\parser.c
+1572841144 source:e:\programacion\tp3\tp3\win_64\parser.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
 	"Employee.h"
+	"parser.h"
 
-1572999619 source:c:\users\grill\desktop\tp_laboratorio_1-master\tp3\win_64\controller.c
+1572735759 source:e:\programacion\tp3\tp3\win_64\utn.c
 	<stdio.h>
 	<stdlib.h>
-	"LinkedList.h"
-	"Employee.h"
+	<string.h>
+	"utn.h"
 
-1572999619 c:\users\grill\desktop\tp_laboratorio_1-master\tp3\win_64\linkedlist.h
+1572735759 e:\programacion\tp3\tp3\win_64\utn.h
 
-1572999619 c:\users\grill\desktop\tp_laboratorio_1-master\tp3\win_64\employee.h
-
-1572999619 source:c:\users\grill\desktop\tp_laboratorio_1-master\tp3\win_64\employee.c
-
-1572999619 source:c:\users\grill\desktop\tp_laboratorio_1-master\tp3\win_64\main.c
-	"cabecera.h"
-
-1573265415 c:\users\grill\desktop\tp_laboratorio_1-master\tp3\win_64\cabecera.h
+1572843061 source:e:\programacion\tp3\tp3\win_64\main.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
 	"Controller.h"
 	"Employee.h"
+	"utn.h"
 
-1573265689 c:\users\grill\desktop\tp_laboratorio_1-master\tp3\win_64\controller.h
+1533133022 e:\programacion\tp3\tp3\win_64\controller.h
 
-1573265695 source:c:\users\grill\desktop\tp_laboratorio_1-master\tp3\win_64\parser.c
+1572833955 e:\programacion\tp3\tp3\win_64\parser.h
+
+1572916304 source:d:\esqueleto-tp-3-master\win_64\employee.c
+	"Employee.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1572898607 d:\esqueleto-tp-3-master\win_64\employee.h
+	"LinkedList.h"
+
+1572898607 d:\esqueleto-tp-3-master\win_64\linkedlist.h
+
+1572915617 source:d:\esqueleto-tp-3-master\win_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"utn.h"
+
+1572898607 d:\esqueleto-tp-3-master\win_64\controller.h
+
+1572898607 d:\esqueleto-tp-3-master\win_64\utn.h
+
+1572898607 source:d:\esqueleto-tp-3-master\win_64\parser.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
 	"Employee.h"
+	"parser.h"
 
-1573265340 source:c:\users\grill\desktop\tp_laboratorio_1-master\tp3\win_64\cabecera.c
+1572898607 d:\esqueleto-tp-3-master\win_64\parser.h
+
+1572898607 source:d:\esqueleto-tp-3-master\win_64\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1572916764 source:d:\esqueleto-tp-3-master\win_64\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"utn.h"
+
+1573018025 source:e:\programacion\tp3\tp-laboratorio-esqui-master\tp-laboratorio-esqui-master\esqueleto-tp-3-master\win_64\employee.c
+	"Employee.h"
+	"utn.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1572987792 e:\programacion\tp3\tp-laboratorio-esqui-master\tp-laboratorio-esqui-master\esqueleto-tp-3-master\win_64\employee.h
+	"LinkedList.h"
+
+1572916906 e:\programacion\tp3\tp-laboratorio-esqui-master\tp-laboratorio-esqui-master\esqueleto-tp-3-master\win_64\linkedlist.h
+
+1573018025 source:e:\programacion\tp3\tp-laboratorio-esqui-master\tp-laboratorio-esqui-master\esqueleto-tp-3-master\win_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"utn.h"
+
+1572916906 e:\programacion\tp3\tp-laboratorio-esqui-master\tp-laboratorio-esqui-master\esqueleto-tp-3-master\win_64\controller.h
+
+1572916906 e:\programacion\tp3\tp-laboratorio-esqui-master\tp-laboratorio-esqui-master\esqueleto-tp-3-master\win_64\utn.h
+
+1572916906 source:e:\programacion\tp3\tp-laboratorio-esqui-master\tp-laboratorio-esqui-master\esqueleto-tp-3-master\win_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+
+1572916906 e:\programacion\tp3\tp-laboratorio-esqui-master\tp-laboratorio-esqui-master\esqueleto-tp-3-master\win_64\parser.h
+
+1572916906 source:e:\programacion\tp3\tp-laboratorio-esqui-master\tp-laboratorio-esqui-master\esqueleto-tp-3-master\win_64\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1573017597 source:e:\programacion\tp3\tp-laboratorio-esqui-master\tp-laboratorio-esqui-master\esqueleto-tp-3-master\win_64\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"utn.h"
+
+1573250802 source:c:\users\alumno\downloads\tp3_laboratorio_1-master\tp 3\win_64\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"utn.h"
+
+1573236950 c:\users\alumno\downloads\tp3_laboratorio_1-master\tp 3\win_64\linkedlist.h
+
+1573236950 c:\users\alumno\downloads\tp3_laboratorio_1-master\tp 3\win_64\employee.h
+	"LinkedList.h"
+
+1573236950 c:\users\alumno\downloads\tp3_laboratorio_1-master\tp 3\win_64\parser.h
+
+1573236950 c:\users\alumno\downloads\tp3_laboratorio_1-master\tp 3\win_64\utn.h
+
+1573236950 source:c:\users\alumno\downloads\tp3_laboratorio_1-master\tp 3\win_64\employee.c
+	"Employee.h"
+	"utn.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1573236950 source:c:\users\alumno\downloads\tp3_laboratorio_1-master\tp 3\win_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+
+1573236950 source:c:\users\alumno\downloads\tp3_laboratorio_1-master\tp 3\win_64\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1573250802 source:c:\users\alumno\downloads\tp3_laboratorio_1-master\tp 3\win_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"utn.h"
+
+1573236950 c:\users\alumno\downloads\tp3_laboratorio_1-master\tp 3\win_64\controller.h
 
